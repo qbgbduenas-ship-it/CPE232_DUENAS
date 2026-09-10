@@ -1,0 +1,13 @@
+[web-servers]
+192.168.56.106
+192.168.56.111
+
+[db_servers]
+192.168.56.106
+
+[file_servers]
+192.168.56.111
+192.168.56.107 ansible_connection=local
+
+[all:vars]
+ansible_user=beatriceduenas
